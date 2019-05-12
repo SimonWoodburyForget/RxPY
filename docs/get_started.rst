@@ -18,7 +18,7 @@ items to an Observer. You can use a :func:`create()
 <rx.create>` factory and pass it functions that handle items:
 
 * The *on_next* function is called each time the Observable emits an item.
-* The *on_completed* function is called when the Observale completes.
+* The *on_completed* function is called when the Observable completes.
 * The *on_error* function is called when an error occurs on the Observable.
 
 You do not have to specify all three events types. You can pick and choose which
